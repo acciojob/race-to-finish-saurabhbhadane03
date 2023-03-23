@@ -1,4 +1,3 @@
-window.promises = [Promise1,Promise2,Promise3,Promise4,Promise5];
 
 const Promise1 = new Promise((resolve,reject) => {
 	setTimeout(()=>{
@@ -31,6 +30,7 @@ const Promise5 = new Promise((resolve,reject) => {
 })
 // Do not change the code above this
 // add your promises to the array `promises`
+window.promises = [Promise1,Promise2,Promise3,Promise4,Promise5];
 
 const divElement = document.querySelector('#output');
 
