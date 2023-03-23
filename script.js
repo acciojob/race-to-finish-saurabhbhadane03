@@ -1,31 +1,31 @@
 
 const Promise1 = new Promise((resolve,reject) => {
 	setTimeout(()=>{
-		resolve("Hi");
+		resolve("Hi-1");
 	}, 1000)
 })
 
 const Promise2 = new Promise((resolve,reject) => {
 	setTimeout(()=>{
-		resolve("Hi");
+		resolve("Hi-2");
 	}, 2000)
 })
 
 const Promise3 = new Promise((resolve,reject) => {
 	setTimeout(()=>{
-		resolve("Hi");
+		resolve("Hi-3");
 	}, 3000)
 })
 
 const Promise4 = new Promise((resolve,reject) => {
 	setTimeout(()=>{
-		resolve("Hi");
+		resolve("Hi-4");
 	}, 4000)
 })
 
 const Promise5 = new Promise((resolve,reject) => {
 	setTimeout(()=>{
-		resolve("Hi");
+		resolve("Hi-5");
 	}, 5000)
 })
 // Do not change the code above this
