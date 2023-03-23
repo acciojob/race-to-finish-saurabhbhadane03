@@ -36,5 +36,8 @@ const divElement = document.querySelector('#output');
 
 Promise.any(promises)
 	.then((res) => {
-		divElement.innerHTML = `<p> ${res} </p>`
+		divElement.innerHTML = ` ${res} `
+	})
+	.catch((e)=>{
+		console.log(e);
 	})
